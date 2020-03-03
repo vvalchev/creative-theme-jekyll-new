@@ -4,6 +4,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 author: Copyright &copy; 2019 - Start Bootstrap
+lang: en_US
 
 # Build settings
 safe: true # always trues on github-pages, disables _plugins/
@@ -13,7 +14,6 @@ sass:
   style: compact
   precision: 10
 plugins:
-  - jekyll-menus
   - jekyll-sitemap
   - jekyll-seo-tag
 exclude:

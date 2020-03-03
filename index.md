@@ -3,8 +3,6 @@ layout: home
 sections:
   - type: call-to-action.html
     section_id: about
-    # If you don't put 'menu_title', this section will not appear in the menus
-    menu_title: About
     background_style: bg-primary
     title: We've got what you need!
     text: Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!
@@ -16,7 +14,6 @@ sections:
   - type: services.html
     section_id: services
     #background_style: bg-info
-    menu_title: Services
     title: At Your Service
     services:
       - title: Sturdy Templates
@@ -42,7 +39,6 @@ sections:
     # this section has always ID 'portfolio'
     #section_id: portfolio
     #background_style: bg-dark
-    menu_title: Portfolio
     projects:
       - title: Project 1
         text: This is a very short project description.
@@ -82,7 +78,6 @@ sections:
 
   - type: members.html
     section_id: members
-    menu_title: Members
     title: Our Crew!
     background_style: bg-info text-white
     members:
@@ -116,7 +111,6 @@ sections:
 
   - type: timeline.html
     section_id: timeline
-    menu_title: History
     title: Major Achievements!
     background_style: bg-dark text-primary
     last_image: assets/img/timeline-end.png
@@ -138,7 +132,6 @@ sections:
 
   - type: contact.html
     section_id: contacts
-    menu_title: Contacts
     title: Let's Get In Touch!
     text: >-
       Ready to start your next project with us? Give us a call or send us an email

@@ -14,7 +14,7 @@ Creating a site with this particular Jekyll theme, is basically writing a markdo
 - Don't forget to change `_data/footer.yml` to update the copyright.
 - In `index.md` reorder or remove section as you prefer.
 - You can also add other pages, like `links.md`.
-- If you want to add the home page sections to the menus - take a look at `_data/menus.yml`
+- Edit `_data/menus.yml` to add links in the navigation bar.
 
 # Credits
 * This work is heavily inspired by https://github.com/volny/creative-theme-jekyll.
