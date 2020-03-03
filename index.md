@@ -93,9 +93,6 @@ sections:
     members:
       - title: Christina M. Aponte
         text: Singer and Songwriter
-        # the images are located in:
-        # img/portfolio/fullsize
-        # img/portfolio/thumbnails
         image: assets/img/members/person1.jpg
         url: '#'
       - title: Gary D. Stevens
