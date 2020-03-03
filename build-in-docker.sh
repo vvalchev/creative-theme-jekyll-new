@@ -14,6 +14,7 @@ else
     -H 0.0.0.0 \
     --trace \
     --watch \
+    --force_polling \
     --livereload \
     --livereload-port 4001
 fi

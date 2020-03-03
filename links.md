@@ -1,7 +1,7 @@
 ---
+layout: page
 title: Links
 #background_style: bg-info
-layout: page
 # Add a link to the the top menu
 menus:
   header:
