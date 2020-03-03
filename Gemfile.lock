@@ -123,8 +123,6 @@ GEM
     jekyll-mentions (1.5.1)
       html-pipeline (~> 2.3)
       jekyll (>= 3.7, < 5.0)
-    jekyll-menus (0.6.1)
-      jekyll (>= 3.6, < 5.0)
     jekyll-optional-front-matter (0.3.2)
       jekyll (>= 3.0, < 5.0)
     jekyll-paginate (1.1.0)
@@ -245,7 +243,8 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages (~> 204)
-  jekyll-menus (~> 0.6.1)
+  jekyll-seo-tag (~> 2.6)
+  jekyll-sitemap (~> 1.4)
 
 BUNDLED WITH
    2.1.2

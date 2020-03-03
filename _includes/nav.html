@@ -6,7 +6,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto my-2 my-lg-0">
-        {% for item in site.menus.header  %}
+        {% for item in site.data.menus.header  %}
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="{{ item.url | relative_url }}">{{ item.title }}</a>
           </li>
