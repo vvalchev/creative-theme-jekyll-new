@@ -6,6 +6,7 @@ url: "" # the base hostname & protocol for your site
 author: Copyright &copy; 2019 - Start Bootstrap
 
 # Build settings
+safe: true # always trues on github-pages, disables _plugins/
 markdown: kramdown
 sass:
   indentWidth: 4
