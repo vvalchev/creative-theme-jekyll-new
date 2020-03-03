@@ -25,11 +25,15 @@ Creating a site with this particular Jekyll theme, is basically writing a markdo
 
 # Development
 If you want to use this template, or enhance it, you can use Docker.
-Just run './build-in-docker.sh' and then point your browser to http://localhost:4000/
+Just run './build-in-docker.sh' and then point your browser to http://localhost:4000/.
+
+Note: Developing for github pages is tricky. You should alway rely on
+[safe plugins](https://pages.github.com/versions/) because any other, that's not
+in the list will simply not run.
 
 # Good Ideas
 * Contacts submit form example
- * https://github.com/Codevelopr/codevelopr.github.io/
- * https://jekyllrb.com/resources/#forms
+  * https://github.com/Codevelopr/codevelopr.github.io/
+  * https://jekyllrb.com/resources/#forms
 * Table of contents example
- * https://github.com/fedenunez/fedenunez.github.io
+  * https://github.com/fedenunez/fedenunez.github.io
