@@ -7,14 +7,6 @@
         {{ section.text | newline_to_br | markdownify }}
       </div>
     </div>
-    {% if section.actions %}
-    <div class="row justify-content-center">
-      <div class="col md-auto text-center">
-        {% for action in section.actions %}
-          <a href="{{ action.url }}" class="btn btn-xl js-scroll-trigger {{ action.class | default: "btn-primary" }}">{{ action.title }}</a>
-        {% endfor %}
-      </div>
-    </div>
-    {% endif %}
+    {% include actions.html actions=section.actions %}
   </div>
 </section>

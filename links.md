@@ -42,6 +42,10 @@ sections:
   title: No HTML!
 #  background_style: bg-info
 #  text_style: text-left text-white
+  actions:
+   - title: Markdown is fun!
+     class: btn-info
+     url: '#'
   text: >+
     ### Typographic replacements
 

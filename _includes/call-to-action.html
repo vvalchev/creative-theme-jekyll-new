@@ -5,10 +5,8 @@
         <h2 class="text-white mt-0 text-center">{{ section.title }}</h2>
         <hr class="divider light my-4">
         <div class="text-white-50 mb-4 ">{{ section.text | markdownify }}</div>
-        {% for action in section.actions %}
-          <a href="{{ action.url }}" class="btn btn-light btn-xl js-scroll-trigger {{ action.class }}">{{ action.title }}</a>
-        {% endfor %}
       </div>
     </div>
+    {% include actions.html actions=section.actions %}
   </div>
 </section>
