@@ -29,6 +29,7 @@ sections:
       - title: Sturdy Templates
         text: Our templates are updated regularly so they don't break.
         icon: fa-gem text-info
+        url: https://startbootstrap.com/
       - title: Ready to Ship
         text: You can use this theme as is, or you can make changes!
         icon: fa-paper-plane

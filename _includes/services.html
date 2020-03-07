@@ -8,7 +8,12 @@
         <div class="mt-5">
           <i class="fas fa-4x {{ service.icon }} text-primary mb-4"></i>
           <h3 class="h4 mb-2">{{ service.title }}</h3>
-          <p class="text-muted mb-0">{{ service.text }}</p>
+          <div class="text-muted mb-0">
+            {{ service.text | markdownify }}
+            {% if service.url %}
+              <a href="{{ service.url }}"><i class="fas fa-link"></i></a>
+            {% endif %}
+          </div>
         </div>
       </div>
       {% endfor %}
