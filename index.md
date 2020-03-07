@@ -150,9 +150,13 @@ sections:
     - title: E-Mail
       icon: fa-envelope
       url: mailto:contact@yourwebsite.com
+    - title: Twitter
+      icon: fa-twitter
+      icon_type: fab
+      url: '#'
     - title: Facebook
       icon: fa-facebook
       icon_type: fab
-      url: '#'    #background_style: bg-dark
+      url: '#'
 
 ---

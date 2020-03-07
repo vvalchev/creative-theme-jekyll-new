@@ -10,7 +10,7 @@
     <div class="row justify-content-center">
       {% for action in section.actions %}
       {% assign fa = action.icon_type | default: "fas" %}
-      <div class="col-lg-4 ml-auto text-center">
+      <div class="col ml-auto text-center">
         <i class="{{ fa }} {{ action.icon }} fa-3x mb-3 text-muted"></i>
         <a class="d-block" href="{{ action.url }}">{{ action.title }}</a>
       </div>
