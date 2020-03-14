@@ -3,8 +3,17 @@
     <h2 class="text-center mt-0">{{ section.title }}</h2>
     <hr class="divider my-4">
     <div class="row justify-content-center">
+      <!-- {#% assign cols = section.services.size | at_most: 4 %#} -->
+      {% assign cols = section.services.size %}
+      {% if cols > 4 %}
+        {% assign cols = 4 %}
+      {% endif %}
+
+      {% assign colsL = 12 | divided_by: cols %}
+      {% assign colsM = colsL | times: 2 %}
+
       {% for service in section.services %}
-      <div class="col-lg-3 col-md-6 text-center">
+      <div class="col-lg-{{ colsL }} col-md-{{ colsM }} text-center">
         <div class="mt-5">
           <i class="fas fa-4x {{ service.icon }} text-primary mb-4"></i>
           <h3 class="h4 mb-2">{{ service.title }}</h3>
