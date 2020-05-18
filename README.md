@@ -4,7 +4,7 @@ A Jekyll implementation of the [Creative Theme](https://startbootstrap.com/theme
 
 An attractive one page Bootstrap theme perfect for creative portfolios and businesses
 
-Based on Creative Theme v5.1.8 and Bootstrap v4.3.1
+Based on Creative Theme v6.0.1 and Bootstrap v4.4.1.
 
 ## To use the Creative Theme template in your project
 
