@@ -1,6 +1,7 @@
 #!/bin/sh
 
 if [ -z "$1" ]; then
+  docker pull jekyll/jekyll:pages
   docker run -it --rm \
     --workdir /app \
     --volume `pwd`:/app \
