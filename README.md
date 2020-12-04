@@ -1,10 +1,10 @@
 # Creative Theme for Jekyll
 
-A Jekyll implementation of the [Creative Theme](https://startbootstrap.com/themes/creative/) template by [Start Bootstrap](https://startbootstrap.com).
+A Jekyll implementation of the [Creative Theme](https://startbootstrap.com/theme/creative/) template by [Start Bootstrap](https://startbootstrap.com).
 
 An attractive one page Bootstrap theme perfect for creative portfolios and businesses
 
-Based on Creative Theme v6.0.1 and Bootstrap v4.4.1.
+Based on Creative Theme v6.0.4 and Bootstrap v4.5.3.
 
 ## To use the Creative Theme template in your project
 
