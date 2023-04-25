@@ -4,7 +4,7 @@ A Jekyll implementation of the [Creative Theme](https://startbootstrap.com/theme
 
 An attractive one page Bootstrap theme perfect for creative portfolios and businesses
 
-Based on Creative Theme v6.0.4 and Bootstrap v4.5.3.
+Based on Creative Theme v7.0.7 and Bootstrap v5.2.3.
 
 ## To use the Creative Theme template in your project
 
@@ -28,7 +28,7 @@ Creating a site with this particular Jekyll theme, is basically writing a markdo
 If you want to use this template, or enhance it, you can use Docker.
 Just run './build-in-docker.sh' and then point your browser to http://localhost:4000/.
 
-Note: Developing for github pages is tricky. You should alway rely on
+Note: Developing for github pages is tricky. You should always rely on
 [safe plugins](https://pages.github.com/versions/) because any other, that's not
 in the list will simply not run.
 

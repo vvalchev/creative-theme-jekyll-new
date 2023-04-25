@@ -1,24 +1,24 @@
 <section id="{{ section.section_id }}" class="page-section {{ section.background_style }}">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-8 text-center">
+  <div class="container px-4 px-lg-5">
+    <div class="row gx-4 gx-lg-5 justify-content-center">
+      <div class="col-lg-8 col-xl-6 text-center">
         <h2 class="mt-0">{{ section.title }}</h2>
         <hr class="divider my-4">
         <p class="text-muted mb-5">{{ section.text }}</p>
       </div>
     </div>
     <div class="row ">
-      <div class="col-lg-8 ml-auto">
+      <div class="col-lg-8 col-xl-6 ml-auto">
         <iframe src="{{ section.map }}" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
       </div>
-      <div class="col-lg-4 ml-auto">
+      <div class="col-lg-4 col-xl-3  ml-auto">
         <ul class="icons bulleted" >
-            <li class="icon fas fa-map-marker-alt">
+            <li class="icon bi bi-geo-alt-fill">
                 <h2 class="mt-0">{{ section.address.title }}</h2>
                 <p>{{ section.address.text }}</p>
                 <br/>
             </li>
-            <li class="icon fas fa-phone">
+            <li class="icon bi bi-telephone-fill">
                 <h2 class="mt-0">{{ section.phone.title }}</h2>
                 <p>{{ section.phone.text }}</p>
                 <br/>
