@@ -1,7 +1,7 @@
 ---
 layout: home
 header:
-  title: Your Favorite Source of Free Bootstrap Themes
+  title: YOUR FAVORITE SOURCE OF FREE BOOTSTRAP THEMES
   text: >
     Start Bootstrap can help you build better websites using the Bootstrap
     framework! Just download a theme and start customizing, no strings attached!
@@ -38,13 +38,13 @@ sections:
         icon: bi-activity
       - title: Made with Love
         text: You have to make your websites with love these days!
-        icon: bi-heart
+        icon: bi-heart-fill
       - title: Other 1
         text: Some not-so long text here.
-        icon: bi-heart
+        icon: bi-emoji-heart-eyes
       - title: Other 2
         text: Some not-so long text here.
-        icon: bi-heart
+        icon: bi-emoji-sunglasses-fill
 
   - type: portfolio.html
     # this section has always ID 'portfolio'
@@ -146,9 +146,9 @@ sections:
       and we will get back to you as soon as possible!
     actions:
     - title: +1 (202) 555-014
-      icon: bi-telephone
+      icon: bi-telephone-fill
     - title: E-Mail
-      icon: bi-envelope
+      icon: bi-envelope-fill
       url: mailto:contact@yourwebsite.com
     - title: Twitter
       icon: bi-twitter

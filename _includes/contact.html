@@ -1,11 +1,11 @@
 <section id="{{ section.section_id }}" class="page-section {{ section.background_style }}">
   <div class="container px-4 px-lg-5">
     <div class="row gx-4 gx-lg-5 justify-content-center">
-        <div class="col-lg-8 col-xl-6 text-center">
-            <h2 class="mt-0">{{ section.title }}</h2>
-            <hr class="divider" />
-            <p class="text-muted mb-5">{{ section.text }}</p>
-        </div>
+      <div class="col-lg-8 col-xl-6 text-center">
+        <h2 class="mt-0">{{ section.title }}</h2>
+        <hr class="divider border border-primary border-2">
+      <p class="text-muted mb-5">{{ section.text }}</p>
+    </div>
     </div>
     <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
       {% for action in section.actions %}

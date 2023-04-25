@@ -1,8 +1,8 @@
 <section class="page-section {{ section.background_style }}" id="{{ section.section_id }}">
   <div class="container px-4 px-lg-5">
     <h2 class="text-center mt-0">{{ section.title }}</h2>
-    <hr class="divider">
-    <div class="row gx-4 gx-lg-5">
+    <hr class="divider border border-primary border-2">
+    <div class="row gx-4 gx-lg-5 justify-content-center">
       <!-- {#% assign cols = section.services.size | at_most: 4 %#} -->
       {% assign cols = section.services.size %}
       {% if cols > 4 %}
@@ -15,7 +15,7 @@
       {% for service in section.services %}
       <div class="col-lg-{{ colsL }} col-md-{{ colsM }} text-center">
         <div class="mt-5">
-          <div class="mb-2"><i class="{{ service.icon }} bi fs-1 text-primary"></i></div>
+          <div class="mb-2"><i class="{{ service.icon }} bi text-primary" style="font-size: 64px;"></i></div>
           <h3 class="h4 mb-2">{{ service.title }}</h3>
           <div class="text-muted mb-0">
             {{ service.text | markdownify }}
