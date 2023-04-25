@@ -1,7 +1,7 @@
 ---
 layout: home
 header:
-  title: Your Favorite Source of Free Bootstrap Themes
+  title: YOUR FAVORITE SOURCE OF FREE BOOTSTRAP THEMES
   text: >
     Start Bootstrap can help you build better websites using the Bootstrap
     framework! Just download a theme and start customizing, no strings attached!
@@ -28,23 +28,23 @@ sections:
     services:
       - title: Sturdy Templates
         text: Our templates are updated regularly so they don't break.
-        icon: fa-gem text-info
+        icon: bi-gem text-info
         url: https://startbootstrap.com/
       - title: Ready to Ship
         text: You can use this theme as is, or you can make changes!
-        icon: fa-paper-plane
+        icon: bi-rocket-takeoff
       - title: Up to Date
         text: We update dependencies to keep things fresh.
-        icon: fa-laptop-code
+        icon: bi-activity
       - title: Made with Love
         text: You have to make your websites with love these days!
-        icon: fa-heart
+        icon: bi-heart-fill
       - title: Other 1
         text: Some not-so long text here.
-        icon: fa-heart
+        icon: bi-emoji-heart-eyes
       - title: Other 2
         text: Some not-so long text here.
-        icon: fa-heart
+        icon: bi-emoji-sunglasses-fill
 
   - type: portfolio.html
     # this section has always ID 'portfolio'
@@ -146,17 +146,15 @@ sections:
       and we will get back to you as soon as possible!
     actions:
     - title: +1 (202) 555-014
-      icon: fa-phone
+      icon: bi-telephone-fill
     - title: E-Mail
-      icon: fa-envelope
+      icon: bi-envelope-fill
       url: mailto:contact@yourwebsite.com
     - title: Twitter
-      icon: fa-twitter
-      icon_type: fab
+      icon: bi-twitter
       url: '#'
     - title: Facebook
-      icon: fa-facebook
-      icon_type: fab
+      icon: bi-facebook
       url: '#'
 
 ---
