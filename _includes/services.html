@@ -3,8 +3,8 @@
     <h2 class="text-center mt-0">{{ section.title }}</h2>
     <hr class="divider border border-primary border-2">
     <div class="row gx-4 gx-lg-5 justify-content-center">
-      <!-- {#% assign cols = section.services.size | at_most: 4 %#} -->
-      {% assign cols = section.services.size %}
+      <!-- {#% assign cols = section.size | at_most: 4 %#} -->
+      {% assign cols = section.size %}
       {% if cols > 4 %}
         {% assign cols = 4 %}
       {% endif %}
